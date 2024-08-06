@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html lang="en" charset="utf-8">
-	<head><script src="/kuripedu/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=kuripedu/livereload" data-no-instant defer></script>
+	<script src="/kuripedu/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=kuripedu/livereload" data-no-instant defer></script><style>
+	body{
+		margin:1em auto;
+		max-width:40em;
+		padding:0 .62em 3.24em;
+		font:1.2em/1.62 monospace
+	}
+	h1,h2,h3 {
+		line-height:1.2
+	}
+	@media print{
+		body{
+			max-width:none
+		}
+	}
+</style>
+	<head>
 	</head>
 	<body>
 		
   <p>This line is from <code>content/test.md</code>.</p>
-<p><a href="/">Go to home</a></p>
 
   <p>This line is from <code>layouts/_default/single.html</code>.</p>
-  <p>http://localhost:1313/kuripedu/</p>
+  <a href="http://localhost:1313/kuripedu/">Go to home.</a>
 
+		<p>This line is from <code>layouts/_default/baseof.html</code></p>
 	</body>
 </html>
 

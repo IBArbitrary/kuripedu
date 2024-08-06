@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = "https://ibarbitrary.github.io/kuripedu/"
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 disableKinds = ['taxonomy', 'term']
